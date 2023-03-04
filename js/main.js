@@ -10,6 +10,7 @@ btnTranslateEl.addEventListener("click", (event) => {
     .then(data => {
         // Do something with the JSON data
         console.log(data);
+        translationResultEl.innerHTML = data.responseData.translatedText;
     })
     .catch(error => console.error(error));
 
