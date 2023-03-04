@@ -10,6 +10,54 @@
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-lg bg-primary"  data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Super app</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Translator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">History</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <div class="row">
+
+            <div class="col-md-8">
+                
+                <div class="card">
+                    <div class="card-body">
+                      <h3 class="card-title">Translator</h3>
+
+                      <input 
+                      class="my-3 form-control form-control-lg" 
+                      type="text" 
+                      placeholder="Text for translation" 
+                      aria-label="Text for translation">
+
+                      <button type="button" class="btn btn-primary">Translate</button>
+
+                      <p id="translationResult"></p>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-md-4">Reklama</div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
